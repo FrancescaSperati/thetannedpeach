@@ -1,0 +1,44 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+	margin: 0 auto;
+  padding-top:50px;
+	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.breadcrumb_{
+	background-color: transparent !important;
+	font-size: 15px;
+  margin:0px;
+  padding:0px;
+}
+
+main{
+  font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+  padding: 10px;
+	position: relative;
+  z-index: 1;
+	box-sizing: border-box;
+}
+
+.card{
+	margin:auto;
+	width: 18rem;
+}
+
+.size_{
+  font-size: 14px;
+}
+
+.btn-add-bag{
+  font-size: 14px;
+  border-radius:0
+}
+.img-bag{
+  margin-left:5em;
+}

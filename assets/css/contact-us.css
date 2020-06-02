@@ -1,0 +1,25 @@
+.main-raised-box{
+    margin: auto;
+    width: 1200px;
+    box-shadow: 10px 10px 28px #888;
+    border-radius: 25x;
+    margin-top: 330px;
+    background: #fff;
+}
+
+#map {
+  height: 400px; 
+  width: 100%;
+}
+
+.contact-content{
+    padding: 100px;
+}
+
+.map-container{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    height: 400px; 
+    width: 100%;
+}

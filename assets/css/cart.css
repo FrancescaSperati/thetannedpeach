@@ -1,0 +1,65 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color:WhiteSmoke;
+}
+
+header{
+	margin: 0 auto;
+	padding-top:50px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.breadcrumb_{
+	background-color: transparent !important;
+	font-size: 15px;
+	margin:0px;
+	padding:0px;
+}
+
+main{
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+	z-index: 1;
+	box-sizing: border-box;
+	background-color:white;
+	border-radius: 6px;
+}
+
+.table > thead > tr > th{
+	border-top-width: 0;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+	margin:auto;
+}
+
+.table > tbody > tr > td{
+	border-top-width: 0;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+	margin:auto;
+}
+
+.btn.btn-round {
+    border-radius: 30px;
+}
+
+.item_picture{
+	height: 100px;
+}
+
+a{
+	color: #343a40;
+}
+
+.delete_cart_item_btn{
+	background-color:transparent;
+}
+
+.btn-checkout{
+	font-size: 10px;
+	border-radius:0;
+	height:40px;
+	width:200px;
+}	

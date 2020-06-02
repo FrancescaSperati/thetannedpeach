@@ -1,0 +1,25 @@
+.header{
+    margin-bottom: 100px;
+}
+
+#form{
+    display:none;
+  }
+
+#bar{
+    padding: 40px;
+}
+
+a#bag{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+a#bag:hover {
+    color: #f1f1f1;
+}
