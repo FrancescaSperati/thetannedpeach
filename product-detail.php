@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/product-detail.css">
     <title>Verde - Product Details</title>
     <script>
-      var user_id = <?php if($logged){ echo $_SESSION['user_id'];} else { echo 9999; }?>;
+      var user_id = <?php if($logged){ echo $_SESSION['user_id'];} else { echo "null"; }?>;
     </script>
   </head>
 

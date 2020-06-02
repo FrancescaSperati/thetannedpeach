@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="assets/css/cart.css">	
     <title>Verde - Bag</title>
 		<script>
-      var user_id = <?php if($logged){ echo $_SESSION['user_id'];} else { echo 9999; }?>;
+      var user_id = <?php if($logged){ echo $_SESSION['user_id'];} else { echo "null"; }?>;
     </script>
 
 
@@ -253,7 +253,7 @@
 		}
 		
 		function Checkout() {
-			var user_id = <?php echo $_SESSION['user_id']; ?>;
+			var user_id = <?php if($logged){ echo $_SESSION['user_id'];} else { echo "null"; }?>;
 			var qty = $(".tot-quantity").text();
 			var int_qty = parseInt(qty);
 			var tot = $(".total").text();
