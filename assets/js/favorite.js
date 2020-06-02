@@ -83,7 +83,7 @@
     function checkFavItems(user_id){
       if(user_id == "" || user_id == null)
       {
-        console.log("User ID is null");
+        $("#accountModal").modal();
       }else {
         $.ajax({
           url: 'assets/snippets/find_favourite.php',
