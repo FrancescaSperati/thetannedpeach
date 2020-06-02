@@ -83,7 +83,7 @@
     function checkFavItems(user_id){
       if(user_id == "" || user_id == null)
       {
-        alert("User ID not valid");
+        console.log("User ID is null");
       }else {
         $.ajax({
           url: 'assets/snippets/find_favourite.php',

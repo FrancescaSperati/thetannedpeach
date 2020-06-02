@@ -29,7 +29,7 @@
   <title>Verde - Our Products</title>
 
   <script>
-    var user_id = <?php echo $_SESSION['user_id']; ?>;
+    var user_id = <?php echo ( empty($_SESSION['user_id']) ) ? $_SESSION['user_id'] : "null"; ?>;
   </script>
 
 </head>
